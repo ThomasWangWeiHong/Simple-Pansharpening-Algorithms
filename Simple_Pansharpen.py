@@ -19,7 +19,7 @@ def pansharpen(m, pan, psh, R = 1, G = 2, B = 3, NIR = 4, method = 'simple_brove
     - B: Band number of blue band in the multispectral image
     - NIR: Band number of near - infrared band in the multispectral image
     - method: Method to be used for pansharpening
-    - W: Weight value to be used for browley/hsv pansharpening methods
+    - W: Weight value to be used for brovey pansharpening methods
   
     Outputs:
     - img_psh: Pansharpened multispectral image
