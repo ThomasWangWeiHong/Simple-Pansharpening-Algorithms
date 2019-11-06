@@ -38,7 +38,7 @@ def pansharpen(m, pan, psh, R = 1, G = 2, B = 3, NIR = 4, method = 'simple_brove
   
     ms_to_pan_ratio = metadata_ms['transform'][0] / metadata_pan['transform'][0]
     rescaled_ms = cv2.resize(img_ms, dsize = None, fx = ms_to_pan_ratio, fy = ms_to_pan_ratio, 
-                             interpolation = cv2.INTER_CUBIC)
+                             interpolation = cv2.INTER_CUBIC).astype(metadata_ms['dtype'])
 
   
     if img_pan.shape[0] < rescaled_ms.shape[0]:
