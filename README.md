@@ -20,3 +20,19 @@ Requirements:
 - gc
 - numpy
 - rasterio
+
+
+A zoomed - in portion of a GeoEye - 1 sample image (courtesy of European Space Agency) is used to illustrate the Brovey pansharpening technique.
+
+
+Test Multispectral Image (Courtesy of European Space Agency):
+![Alt text](https://github.com/ThomasWangWeiHong/Simple-Pansharpening-Algorithms/blob/master/Test_MS.JPG)
+
+Test Panchromatic Image (Courtesy of European Space Agency):
+![Alt text](https://github.com/ThomasWangWeiHong/Simple-Pansharpening-Algorithms/blob/master/Test_Pan.JPG)
+
+Pansharpened Image (Simple Brovey):
+![Alt text](https://github.com/ThomasWangWeiHong/Simple-Pansharpening-Algorithms/blob/master/Test_PSH_Simple_Brovey.JPG)
+
+Pansharpened Image (Brovey with weight of 0.15):
+![Alt text](https://github.com/ThomasWangWeiHong/Simple-Pansharpening-Algorithms/blob/master/Test_PSH_Brovey_015.JPG)
